@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Front-End</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/android-chrome-192x192.png" type="image/x-icon">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&text=home,work,contact_mail,mail" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Header/Navigation -->
+    <header class="header-container">
+        <nav class="container-base nav-content">
+            <!-- Logo com imagem -->
+            <a href="#" class="logo-link">
+                <img src="assets/logo.png" alt="imagem logo" class="logo-img">
+            </a>
+
+            <!-- Botão hamburguer (visível apenas no mobile) -->
+            <button class="menu-button" aria-label="Abrir menu">&#9776;</button>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item-link"><span class="material-symbols-outlined">home</span>Home</a></li>
+                <li><a href="#projetos" class="nav-item-link"><span class="material-symbols-outlined">work</span>Projetos</a></li>
+                <li><a href="#contato" class="nav-item-link"><span class="material-symbols-outlined">contact_mail</span>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero/Introduction Section -->
+    <section id="home" class="hero-section">
+        <div class="container-base hero-content">
+            <!-- Título com emoji e seu nome -->
+            <h1 class="hero-title"><span class="emoji">👽</span>Olá, eu sou o <span class="hero-title-highlight">Lucas Rodrigues</span></h1>
+            <!-- Parágrafo de descrição atualizado -->
+            <p class="hero-description">
+              Desenvolvedor Front-End com 3 anos de experiência. Sou graduado em Análise de Sistemas, com pós em Engenharia de Software e especialização em Front-End. Tenho domínio em HTML, CSS e JavaScript, sempre buscando evoluir com novos desafios.
+            </p>
+            <a href="#projetos" class="hero-button">
+                Ver Meus Projetos
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projects-section">
+        <div class="container-base">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="assets/print-spotify.png" alt="tela spotify">
+                    <h3 class="project-card-title">🎧spotify-imersao-alura</h3>
+                    <p class="project-card-description">
+                        Interface inspirada no Spotify desenvolvida com HTML e CSS. Destaques: menu lateral responsivo, busca interativa, playlists em destaque e ajustes de acessibilidade e identidade visual.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag tag-html5">HTML5</span>
+                        <span class="project-tag tag-css3">CSS3</span>
+                        <span class="project-tag tag-javascript">JavaScript</span>
+                    </div>
+                    <div class="project-links-container">
+                        <a href="https://github.com/LucasMB21/spotify-imersao-alura" class="btn-project" target="_blank">📂 Acessar Projeto</a>
+                        <a href="https://lucasmb21.github.io/spotify-imersao-alura/" class="btn-site" target="_blank">🌐 Acessar Site</a>
+                    </div>
+
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="assets/print-alura-plus.png" alt="tela alura+">
+                    <h3 class="project-card-title">🎬alura-plus</h3>
+                    <p class="project-card-description">
+                        Landing page responsiva do Alura+, criada com HTML e CSS. Apresenta planos de assinatura com layout moderno e adaptável a diferentes telas.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag tag-html5">HTML5</span>
+                        <span class="project-tag tag-css3">CSS3</span>
+                    </div>
+                     <div class="project-links-container">
+                        <a href="https://github.com/LucasMB21/alura-plus" class="btn-project" target="_blank">📂 Acessar Projeto</a>
+                        <a href="https://lucasmb21.github.io/alura-plus/" class="btn-site" target="_blank">🌐 Acessar Site</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <img src="assets/print-alurabooks.png" alt="tela alurabooks">
+                    <h3 class="project-card-title">📚alura-books-react</h3>
+                    <p class="project-card-description">
+                        Alura Books React é uma aplicação frontend desenvolvida com React JS, inspirada na vitrine de livros da plataforma Alura. O foco do projeto é praticar e demonstrar habilidades fundamentais em React
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag tag-react">React</span>
+                        <span class="project-tag tag-javascript">JavaScript</span>
+                        <span class="project-tag tag-html5">HTML5</span>
+                        <span class="project-tag tag-css3">CSS3</span>
+                    </div>
+                    <div class="project-links-container">
+                        <a href="https://github.com/LucasMB21/alura-books-react" class="btn-project" target="_blank">📂 Acessar Projeto</a>
+                        <a href="https://lucasmb21.github.io/alura-books-react/" class="btn-site" target="_blank">🌐 Acessar Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact-section">
+        <div class="container-base">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-form-container">
+                <!-- Coluna da Imagem -->
+                <div class="contact-image-wrapper">
+                    <img src="assets/IMG_20250819_075907.jpg" alt="Foto de perfil de Lucas Rodrigues" class="contact-image">
+                </div>
+                <!-- Coluna do Conteúdo -->
+                <div class="contact-content-wrapper">
+                    <p class="contact-intro-text">
+                        Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.
+                    </p>
+                    <div class="contact-email-text">
+                        <a href="mailto:lucasmb21.dev@gmail.com" class="email-link" id="email-link">
+                            <span class="material-symbols-outlined">mail</span>lucasmb21.dev@gmail.com
+                        </a>
+                        <span class="email-hint" id="email-hint-text">(Clique para copiar ou enviar um e-mail)</span>
+                    </div>
+                    <div class="social-links-container">
+                        <p class="social-intro-text">Ou me encontre nas redes sociais:</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/lucasmb21/" target="_blank" class="project-link"><img src="assets/linkedin.png" alt="Logo do LinkedIn" class="social-icon-img">Linkedin</a>
+                            <a href="https://github.com/LucasMB21" target="_blank" class="project-link"><img src="assets/github.png" alt="Logo do GitHub" class="social-icon-img">GitHub</a>
+                            <a href="https://www.instagram.com/lucas.mb21/" target="_blank" class="project-link"><img src="assets/instagram.png" alt="Logo do Instagram" class="social-icon-img">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="container-base">
+            <p>&copy; 2025 Lucas Rodrigues / lucasmb21.dev. Todos os direitos reservados.</p>
+            <p class="footer-text-small">Feito com <span class="footer-icon">☕</span> e CSS Customizado.</p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
